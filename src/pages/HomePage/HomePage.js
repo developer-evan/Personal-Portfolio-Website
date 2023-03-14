@@ -21,13 +21,8 @@ function HomePage() {
                 </span> <br />
                     Evans Mogeni
                 </h1>
-                <p>I got diverse skills ranging from Frontend Development to Software Development
-                    Hello!I work as interface and Full stack  developer. I have passion for Web Development, Mobile Development and UI/UX Designing.
-                </p>
-                {/* <div className="hire">
-                    <button>Hire Me</button>
-                  
-                </div> */}
+                <p>I’m focused on building responsive Frontend web  and Mobile applications while learning & exploring other technologies.</p>
+              
                 <div className="social">
                     <a href=""><FaFacebook />  </a>
                     <a href=""><FaInstagram /></a>
