@@ -28,7 +28,7 @@ function HomePage() {
                     <a href=""><FaInstagram /></a>
                     <a href="https://github.com/"><FaGithub /></a>
                     <a href=""><FaTwitter /></a>
-                    <a href=""><FaLinkedin  /></a>
+                    {/* <a href=""><FaLinkedin  /></a> */}
                 </div>
             </div>
         </div>

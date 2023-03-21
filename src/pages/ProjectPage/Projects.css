@@ -1,34 +1,36 @@
 .projects{
     background: #0c151f;
-    height: 650px;
-    padding-top: 80px;
+    height: fit-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
     /* margin-bottom: 150px; */
 }
 .main {
     display: flex;
+
     justify-content: space-evenly;
 }
-
-
-.projects h2 {
-    
-    color: #0077ff;
-}
-
-.project {
-    height: 150px;
-    width: 150px;
+.card{
+    height: fit-content;
+    width: 250px;
     padding: 10px;
     color: #fff;
+    margin-left: 50px;
+    margin-bottom: 20px;
     background: #0077ff;
-    margin-left: 10px;
     border-radius: 10px;
-    /* transition: 1.0 ease; */
+    box-shadow: 0 4px 8px #31c3fdda;
+    transition: transform 0.3s ease-in-out;
+    
 }
-
-.project h3 {
-    margin-top: 50px;
-}
+.card:hover {
+    transform: scale(1.05);
+  }
+ 
+  .card img{
+    height: 200px;
+    width: 200px;
+  }
 
 
 
@@ -36,17 +38,7 @@
     .projects{
         height: fit-content;
     }
-    .main {
-        display: flex;
+    .main{
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        /* margin-bottom: 20px; */
-    }
-
-    .project {
-        margin-bottom: 20px;
-        width: 250px;
-        /* margin-left: 200px; */
     }
 }

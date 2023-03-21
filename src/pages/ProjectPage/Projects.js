@@ -1,6 +1,6 @@
 import React from "react";
 import './Projects.css';
-import { FaArrowRight, FaLaptopCode } from "react-icons/fa"
+import {  FaLaptopCode } from "react-icons/fa"
 
 
 function Projects() {
@@ -8,24 +8,44 @@ function Projects() {
         <div className="projects">
             <h1><FaLaptopCode /> Projects</h1>
             <div className="main">
-                <div className="project">
-                    <h3>E-commerce App</h3>
-                    <a href="#"><FaArrowRight /></a>
+            <div className="card">
+            <img src="images/notebook.jpg" alt="" />
+                <div className="card-content">
+                
+                    <h3> NoteBook in React JS</h3>
+                    {/* <p>I feel Web Designing is a key skills to become a great developer. A UI is the most important think in a web application, because it keeps user engaged and it feels good if you have good web design. Some of my web design work includes GIFT XPRESS, MY PORTFOLIO, TIKTIK etc. which are included on my projects section.</p>
+                     */}
                 </div>
-                <div className="project"><h3>Chat APP</h3>
-                <a href="#"><FaArrowRight /></a>
-                </div>
-                <div className="project"><h3>Profile App</h3>
-                <a href="#"><FaArrowRight /></a>
-                    </div>
-                <div className="project"><h3>Notebook</h3>
-                <a href="#"><FaArrowRight /></a>
-                    </div>
-                <div className="project"><h3>Task Manager</h3>
-                <a href="#"><FaArrowRight /></a>
-                </div>
-                {/* <div className="project">E-commerce</div> */}
             </div>
+            <div className="card">
+            <img src="images/notebook.jpg" alt="" />
+                <div className="card-content">
+                
+                    <h3> NoteBook in React JS</h3>
+                    {/* <p>I feel Web Designing is a key skills to become a great developer. A UI is the most important think in a web application, because it keeps user engaged and it feels good if you have good web design. Some of my web design work includes GIFT XPRESS, MY PORTFOLIO, TIKTIK etc. which are included on my projects section.</p>
+                     */}
+                </div>
+            </div>
+            <div className="card">
+            <img src="images/notebook.jpg" alt="" />
+                <div className="card-content">
+                
+                    <h3> NoteBook in React JS</h3>
+                    {/* <p>I feel Web Designing is a key skills to become a great developer. A UI is the most important think in a web application, because it keeps user engaged and it feels good if you have good web design. Some of my web design work includes GIFT XPRESS, MY PORTFOLIO, TIKTIK etc. which are included on my projects section.</p>
+                     */}
+                </div>
+            </div>
+            <div className="card">
+            <img src="images/notebook.jpg" alt="" />
+                <div className="card-content">
+                
+                    <h3> NoteBook in React JS</h3>
+                    {/* <p>I feel Web Designing is a key skills to become a great developer. A UI is the most important think in a web application, because it keeps user engaged and it feels good if you have good web design. Some of my web design work includes GIFT XPRESS, MY PORTFOLIO, TIKTIK etc. which are included on my projects section.</p>
+                     */}
+                </div>
+            </div>
+            </div>
+
 
         </div>
     )
