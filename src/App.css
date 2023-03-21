@@ -131,8 +131,9 @@ ul{
     visibility: hidden;
   }
   .top-btn-position{
-    left: 340px;
+    left: 260px;
     bottom: 60px;
+    /* margin-left: 20px; */
     position: fixed;
   }
 
